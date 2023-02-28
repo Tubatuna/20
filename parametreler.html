@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametreler</title>
+</head>
+
+<body>
+    <h1>Parametre verme</h1>
+    <p id="demo"></p>
+    <button onclick="showMessage()">Mesajı Göster</button>
+
+
+
+    <script>
+        function showMessage(parametre1='ali', parametre2= 'Burası boş değer') {
+            alert("merhaba" + ":" +parametre1 + parametre2);
+        }
+
+        showMessage("Ahmet", "Mehmet");
+        showMessage("Ayşe", "Emine");
+    </script>
+</body>
+
+</html>

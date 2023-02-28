@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Fonksiyonlar</title>
+</head>
+<body>
+   <h1>Fonksiyonlar</h1>
+   <p id="demo"></p> 
+<button onclick="showMessage()">Mesajı Göster</button>
+<button onclick="beniUyar()">Mesajı Göster</button>
+<button onclick="beniUyar2()">Beni Uyar</button>
+<!-- <button onclick="beniUyar()">Mesajı Göster</button> -->
+
+
+<script>
+   let a=20;
+   let b=100;
+   let c=2;
+   console.log(c);
+   c++;
+   console.log(c);
+   c+=1
+   console.log(c);
+   
+   function showMessage(){
+
+      alert('merhaba arkadaşlar');
+   }
+   
+   // showMessage()
+
+   let disMessage = "Dış Mesajı Gösteriyorum";
+   let user= "Ahmet";
+   
+   function beniUyar(){
+   let message="Sayfa açıldı";
+   alert(message+user);}
+
+   function beniUyar2(){
+      // alert(message); mesage değişkenini bulamadı
+      
+      let user='Mehmet';
+      alert(user);
+   }
+   
+   </script>
+</body>
+</html>

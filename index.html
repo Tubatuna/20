@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p id="deneme"></p>
+    <script>
+        let person="Ahmet Ak"; //string
+        var cevap="Evet ben İstanbulluyum";
+        console.log(person);
+        console.log(cevap);
+
+        const pi = 3.14;
+        let yas=25;
+
+        console.log(typeof pi);
+        console.log(typeof yas);
+        console.log(typeof person);
+
+
+        person=10;
+        document.getElementById('deneme').innerHTML=person;
+        document.getElementById("deneme").innerHTML=person + '<br>' +  cevap;
+        document.getElementById("deneme").innerHTML='<h1>' + cevap + '<h1>';
+        document.getElementById("deneme").innerHTML=person + '<br>' + cevap+ '<br>'; 
+function yazdir(){
+window.print();
+}
+    </script>
+
+    <button onclick="yazdir()">Sayfayı yazdır</button>
+
+
+    <button onclick="window.print()" >Yazdır window</button>
+</body>
+</html>
